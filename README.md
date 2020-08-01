@@ -2,6 +2,7 @@
 
 I'm currently in year 2 at UBC, Vancouver, BC. I'm currently pursuing my Bachelor's in Science (Computer Science + Statistics) and Masters of Management.
 
+<!--
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
@@ -13,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-
+--!>
 
 
 ![Vishal's github stats](https://github-readme-stats.vercel.app/api?username=VDeshh&show_icons=true&theme=radical)
