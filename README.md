@@ -20,7 +20,6 @@ Here are some ideas to get you started:
 
 <p align = "center">
   <img src = "https://github-readme-stats.vercel.app/api?username=VDeshh&show_icons=true&theme=radical&line_height=27">
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=VDeshh&hide=css,html&theme=tokyonight">
 </p>
 
 
