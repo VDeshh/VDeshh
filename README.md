@@ -1,6 +1,6 @@
 # Hi, I'm Vishal  👋 💻
 
-<img src="https://raw.githubusercontent.com/M0nica/M0nica/master/gh-header-image-cropped.png" width="1000">
+<img src="https://raw.githubusercontent.com/VDeshh/VDeshh/master/header.png" width="1000">
 
 I'm currently in year 2 at UBC, Vancouver, BC. I'm currently pursuing my Bachelor's in Science (Computer Science + Statistics) and Masters of Management.
 
