@@ -1,4 +1,4 @@
-<img src="LET IT SNOW!.png" alt="banner that says Vishal Desh">
+<img src="LET IT SNOW!.png" alt="banner that says Vishal Desh" width="500">
 
 # Hi, I'm Vishal  👋 💻
 
