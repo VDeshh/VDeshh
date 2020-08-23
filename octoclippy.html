@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7 lte-ie9"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 lte-ie9"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9 lte-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lte-ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" class="no-js" xmlns:fb="http://ogp.me/ns/fb#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" itemscope="itemscope" itemtype="http://schema.org/SoftwareApplication"> <!--<![endif]-->
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# challengepost: http://ogp.me/ns/fb/challengepost#">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WCFRZ3V');</script>
+<!-- End Google Tag Manager -->
+
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f9082fa052","applicationID":"7341974","transactionName":"IQpdERFeXFVVRhpbCw8AHBYMV0ROUUZQQEsRDVwS","queueTime":1,"applicationTime":269,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"f9082fa052",applicationID:"7341974"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(c(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(5),c=e(6),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,n){s[n]=i(p+n,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(l+"tracer",[u.now(),e,t],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&d("lcp",[t[t.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var n=Math.round(e.timeStamp),t={type:e.type};n<=p.now()?t.fid=p.now()-n:n>p.offset&&n<=Date.now()?(n-=p.offset,t.fid=p.now()-n):n=p.now(),g=!0,d("timing",["fi",n,t])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(4),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e){function n(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,n,!1)}n.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],5:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],6:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],7:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function t(t,r,i,o){if(!p.aborted||o){e&&e(t,r,i);for(var a=n(i),c=v(t),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[t]];return d&&d.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(t)}function y(e,n){u(e,function(e,t){n=n||"feature",w[t]=n,n in s||(s[n]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(5),s={},d={},p=n.exports=i();p.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(w,function(n,t){e[n]||(e[n]=t)});var t=a();f("mark",["onload",t+E.offset],null,"api"),f("timing",["load",t]);var r=l.createElement("script");r.src="https://"+e.agent,n.parentNode.insertBefore(r,n)}}function i(){"complete"===l.readyState&&o()}function o(){f("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-E.offset}var c=(new Date).getTime(),f=e("handle"),u=e(5),s=e("ee"),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,y=g&&g.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var h=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1177.min.js"},b=g&&y&&y[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:c,now:a,origin:h,features:{},xhrWrappable:b,userAgent:d};e(1),e(2),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),f("mark",["firstbyte",c],null,"api");var x=0,O=e(7)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(6),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof t?t(r,a):t||{}}catch(u){p([u,"",[r,a,i],c])}s(n+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(n+"err",[r,a,d],c),d}finally{s(n+"end",[r,a,f],c)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<n.length;f++)c=n[f],a=e[c],r(a)||(e[c]=t(a,u?c+i:i,o,c))}function s(t,r,i){if(!f||n){var o=f;f=!0;try{e.emit(t,r,i,n)}catch(a){p([a,t,r,i])}f=o}}function d(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){p([r])}for(var i in e)c.call(e,i)&&(n[i]=e[i]);return n}function p(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width">
+    <title>Octoclippy | Devpost</title>
+
+    <meta name="description" content="Octoclippy - Animated helper for Github" />
+<meta property="fb:app_id" content="115745995110194" />
+<meta property="og:title" content="Octoclippy" />
+<meta property="og:description" content="Animated helper for Github" />
+<meta property="og:type" content="challengepost:app" />
+<meta property="og:site_name" content="Devpost" />
+<meta property="og:image" content="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/456/289/datas/medium.jpg" />
+<meta property="og:url" content="http://devpost.com/software/octoclippy" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Devpost" />
+<meta name="twitter:title" content="Octoclippy" />
+<meta name="twitter:description" content="Animated helper for Github" />
+<meta name="twitter:image" content="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/456/289/datas/medium.jpg" />
+<meta name="twitter:domain" content="devpost.com" />
+<meta name="twitter:url" content="http://devpost.com/software/octoclippy" />
+<meta itemprop="name" content="Octoclippy" />
+<meta itemprop="description" content="Animated helper for Github" />
+<meta itemprop="image" content="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/456/289/datas/medium.jpg" />
+<meta itemprop="screenshot" content="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/456/289/datas/medium.jpg" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="C7EdWmFhxmH2WfXVO+CiHMRMWQwSR7N4YOxq6Kot15KZLa9JyPAhR1YojQuvQS7DRwgLjZHBdTtPmtkjq3b3SA==" />
+    
+
+    <!--[if gt IE 7]><!-->
+    <link rel="stylesheet" media="screen" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" media="screen" href="https://devpost-challengepost.netdna-ssl.com/assets/reimagine2-48924748bc4255e58c6e2d8dc62e5a07.css" />
+    <link rel="stylesheet" media="screen" href="https://devpost-challengepost.netdna-ssl.com/assets/home/home_application-c787235efaf372b99fbb3508816d358a.css" />
+    
+    <script src="https://devpost-challengepost.netdna-ssl.com/assets/modernizr-bef57869320b416d48fb2c5087d5e793.js"></script>
+    <!--<![endif]-->
+
+    <link href="https://plus.google.com/100989403125217127946" rel="publisher">
+  </head>
+
+  <body id="body-softwares" class="foundation-grid action-show controller-softwares engine-home">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCFRZ3V"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+
+    <!--googleoff: anchor-->
+
+<!--[if lte IE 9 ]>
+  <div id="unsupported_browser_version" class="persistent_message alert-box alert">
+    <p>
+      We've detected that you are using an unsupported browser.  Please
+      <a href="http://browsehappy.com/">upgrade your browser</a>
+      to Internet Explorer 10 or higher.
+    </p>
+  </div>
+<![endif]-->
+
+
+<!--googleon: anchor-->
+
+
+
+    
+    
+    
+  
+<header id="global-nav">
+  <div class="contain-to-grid hide-for-large-up">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area top-bar-section">
+      <li>
+        <a class="toggle-topbar has-dropdown text-center" data-target-menu="world" id="hamburger" href="#">
+          <i class="ss-icon ss-rows"></i>
+</a>      </li>
+      <li class="name">
+
+        <span id="logo">
+  <a href="https://devpost.com">
+    <img alt="Devpost" src="https://devpost-challengepost.netdna-ssl.com/assets/reimagine2/devpost-logo-646bdf6ac6663230947a952f8d354cad.svg" />
+</a></span>
+
+      </li>
+
+      
+        <li class="right">
+    <ul class="right logged-out">
+  <li><a href="https://secure.devpost.com/users/login?ref=top-nav-login">Log in</a></li>
+  <li class="show-for-medium-up">
+    <a id="signup-link" href="https://secure.devpost.com/users/register?ref_content=signup_global_nav&amp;ref_feature=signup&amp;ref_medium=button">
+      <span class="inner-button">
+        Sign up
+      </span>
+</a>  </li>
+</ul>
+
+  </li>
+
+    </ul>
+
+    <section class="top-bar-section" data-top-nav-menu="user">
+      
+    </section>
+
+    <section class="top-bar-section" data-top-nav-menu="world">
+      <ul class="right">
+  <li class="divider"></li>
+<li>
+  <a class="main-link" data-role="discover" href="https://devpost.com/hackathons">
+    Hackathons
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="projects" href="https://devpost.com/software">
+    Projects
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="for-orgs" href="https://post.devpost.com">
+    For organizations
+</a></li>
+
+</ul>
+
+    </section>
+  </nav>
+</div>
+
+  <div class="contain-to-grid hide-for-small hide-for-medium">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <span id="logo">
+  <a href="https://devpost.com">
+    <img alt="Devpost" src="https://devpost-challengepost.netdna-ssl.com/assets/reimagine2/devpost-logo-646bdf6ac6663230947a952f8d354cad.svg" />
+</a></span>
+
+      </li>
+    </ul>
+
+    <section class="top-bar-section">
+      <ul class="left">
+  <li class="divider"></li>
+<li>
+  <a class="main-link" data-role="discover" href="https://devpost.com/hackathons">
+    Hackathons
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="projects" href="https://devpost.com/software">
+    Projects
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="for-orgs" href="https://post.devpost.com">
+    For organizations
+</a></li>
+
+</ul>
+
+        <ul class="right logged-out">
+  <li><a href="https://secure.devpost.com/users/login?ref=top-nav-login">Log in</a></li>
+  <li class="show-for-medium-up">
+    <a id="signup-link" href="https://secure.devpost.com/users/register?ref_content=signup_global_nav&amp;ref_feature=signup&amp;ref_medium=button">
+      <span class="inner-button">
+        Sign up
+      </span>
+</a>  </li>
+</ul>
+
+
+    </section>
+  </nav>
+</div>
+
+</header>
+
+
+
+
+
+    <section id="container">
+        <header class="page-header text-center" id="software-header">
+
+
+  <div class="row">
+    <div class="small-12 columns">
+      
+        <h1 id="app-title">Octoclippy</h1>
+
+          <p class="large">
+    Animated helper for Github
+  </p>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="software-likes">
+  <div data-like="base">
+    <a class="like-button button radius secondary" href="https://secure.devpost.com/users/register?flow%5Bdata%5D%5Bsoftware_id%5D=110138&amp;flow%5Bname%5D=like_software&amp;return_to=https%3A%2F%2Fdevpost.com%2Fsoftware%2Foctoclippy">
+  <span class="ss-icon ss-heart"></span>
+  Like
+</a>
+</div>
+
+</div>
+
+      <a id="software-comment-button" class="button radius comment-button" href="/software/octoclippy#updates">
+  <span class="ss-icon ss-quote"></span>
+  Comment
+</a>
+
+    </div>
+  </div>
+</header>
+
+  
+<nav id="software-nav">
+  <div class="row">
+    <div class="large-12 columns">
+      <ul class="left no-bullet">
+        <li>
+          <h4>
+            <a class="active" href="/software/octoclippy">Story</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="/software/octoclippy#updates">Updates</a>
+          </h4>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+      
+  
+
+
+<article id="app-details" class="content-section">
+  <div class="row">
+    <div class="large-9 columns" id="app-details-left">
+      
+
+    <div id="gallery">
+      <ul data-slick="true">
+
+        
+  <li class="text-center">
+        <a data-gif-player="true" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/275/datas/original.gif">
+          
+  <img alt="Octoclippy – screenshot 1" class="software_photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/275/datas/gallery.jpg" />
+
+</a>        <span class="gif-tag">GIF</span>
+        <a class="gif-play"><i class="fas fa-play"></i></a>
+    <p>
+      <i>yay</i>
+    </p>
+</li>
+  <li class="text-center">
+        <a data-gif-player="true" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/276/datas/original.gif">
+          
+  <img alt="Octoclippy – screenshot 2" class="software_photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/276/datas/gallery.jpg" />
+
+</a>        <span class="gif-tag">GIF</span>
+        <a class="gif-play"><i class="fas fa-play"></i></a>
+    <p>
+      <i>tentacle</i>
+    </p>
+</li>
+  <li class="text-center">
+        <a data-gif-player="true" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/277/datas/original.gif">
+          
+  <img alt="Octoclippy – screenshot 3" class="software_photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/277/datas/gallery.jpg" />
+
+</a>        <span class="gif-tag">GIF</span>
+        <a class="gif-play"><i class="fas fa-play"></i></a>
+    <p>
+      <i>blink</i>
+    </p>
+</li>
+  <li class="text-center">
+        <a data-gif-player="true" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/278/datas/original.gif">
+          
+  <img alt="Octoclippy – screenshot 4" class="software_photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/278/datas/gallery.jpg" />
+
+</a>        <span class="gif-tag">GIF</span>
+        <a class="gif-play"><i class="fas fa-play"></i></a>
+    <p>
+      <i>ears</i>
+    </p>
+</li>
+  <li class="text-center">
+        <a data-gif-player="true" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/279/datas/original.gif">
+          
+  <img alt="Octoclippy – screenshot 5" class="software_photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/279/datas/gallery.jpg" />
+
+</a>        <span class="gif-tag">GIF</span>
+        <a class="gif-play"><i class="fas fa-play"></i></a>
+    <p>
+      <i>spin</i>
+    </p>
+</li>
+  <li class="text-center">
+        <a data-gif-player="true" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/282/datas/original.gif">
+          
+  <img alt="Octoclippy – screenshot 6" class="software_photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/282/datas/gallery.jpg" />
+
+</a>        <span class="gif-tag">GIF</span>
+        <a class="gif-play"><i class="fas fa-play"></i></a>
+    <p>
+      <i>trash</i>
+    </p>
+</li>
+  <li class="text-center">
+        <a data-gif-player="true" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/283/datas/original.gif">
+          
+  <img alt="Octoclippy – screenshot 7" class="software_photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/456/283/datas/gallery.jpg" />
+
+</a>        <span class="gif-tag">GIF</span>
+        <a class="gif-play"><i class="fas fa-play"></i></a>
+    <p>
+      <i>save</i>
+    </p>
+</li>
+</ul>    </div>
+
+
+
+      <div>
+  <p>We were inspired by the classic Clippy helper in Microsoft Word.</p>
+
+<p>Our app provides hints in a similar way, but for Github instead of Word. </p>
+
+<p>As well as randomised 'at rest' animations, Octocat and Hu-bot make action-specific animations, e.g. when you save, delete and search.</p>
+
+<p>Naomi built the app using atom, html, css and javascript. Asiyla created the animations using gimp and spriter.</p>
+
+<p>Neither of us had dealt with animations before, we didn't event know what a sprite sheet was! We ran into some technical issues with uniform image sizes on the spritesheets and figuring out atom.</p>
+
+<p>We especially like Mona's ears animation, she's so cute!</p>
+
+<p>How to animate, yay!</p>
+
+<p>What's next - more animations and more actions! </p>
+
+<p><img src="https://res.cloudinary.com/devpost/image/fetch/s--O8hWw83u--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://github.com/npentrel/octoclippy/blob/master/gifs/ears.gif%3Fraw%3Dtrue" alt="" data-canonical-url="https://github.com/npentrel/octoclippy/blob/master/gifs/ears.gif?raw=true">
+<img src="https://res.cloudinary.com/devpost/image/fetch/s--FjUUoyfe--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://github.com/npentrel/octoclippy/blob/master/gifs/doubleblink.gif%3Fraw%3Dtrue" alt="" data-canonical-url="https://github.com/npentrel/octoclippy/blob/master/gifs/doubleblink.gif?raw=true">
+<img src="https://res.cloudinary.com/devpost/image/fetch/s--KP5oRp25--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://github.com/npentrel/octoclippy/blob/master/gifs/tentacles.gif%3Fraw%3Dtrue" alt="" data-canonical-url="https://github.com/npentrel/octoclippy/blob/master/gifs/tentacles.gif?raw=true">
+<img src="https://res.cloudinary.com/devpost/image/fetch/s--dhNKuaKG--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://github.com/npentrel/octoclippy/blob/master/gifs/delete.gif%3Fraw%3Dtrue" alt="" data-canonical-url="https://github.com/npentrel/octoclippy/blob/master/gifs/delete.gif?raw=true">
+<img src="https://res.cloudinary.com/devpost/image/fetch/s--uu7ibnxD--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://github.com/npentrel/octoclippy/blob/master/gifs/electric.gif%3Fraw%3Dtrue" alt="" data-canonical-url="https://github.com/npentrel/octoclippy/blob/master/gifs/electric.gif?raw=true">
+<img src="https://res.cloudinary.com/devpost/image/fetch/s--Rp37ZBQD--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://github.com/npentrel/octoclippy/blob/master/gifs/save.gif%3Fraw%3Dtrue" alt="" data-canonical-url="https://github.com/npentrel/octoclippy/blob/master/gifs/save.gif?raw=true"></p>
+
+<h1>Table number 2</h1>
+
+</div>
+
+        <div id="built-with" class="">
+    <h2>Built With</h2>
+
+    <ul class="no-bullet inline-list"><li><span class="cp-tag">atom</span></li><li><span class="cp-tag recognized-tag"><a href="https://devpost.com/software/built-with/css">css</a></span></li><li><span class="cp-tag recognized-tag"><a href="https://devpost.com/software/built-with/gimp">gimp</a></span></li><li><span class="cp-tag recognized-tag"><a href="https://devpost.com/software/built-with/html">html</a></span></li><li><span class="cp-tag recognized-tag"><a href="https://devpost.com/software/built-with/javascript">javascript</a></span></li><li><span class="cp-tag recognized-tag"><a href="https://devpost.com/software/built-with/photoshop">photoshop</a></span></li><li><span class="cp-tag">spriter</span></li></ul>
+  </div>
+
+        <nav class="app-links section">
+    <h2>Try it out</h2>
+
+    <ul data-role="software-urls" class="no-bullet">
+        <li><a target="_blank" title="https://github.com/npentrel/octoclippy" rel="nofollow" href="https://github.com/npentrel/octoclippy">
+  <i class="ss-icon ss-link"></i>
+  <span>github.com</span>
+</a></li>
+    </ul>
+  </nav>
+
+    </div>
+
+    <aside class="large-3 columns" id="app-details-right">
+
+        <div id="submissions" class="section">
+    <h4 class="clearfix">
+      Submitted to
+    </h4>
+
+    <ul class="software-list-with-thumbnail">
+      <li>
+    <figure class="software-list-thumbnail challenge_avatar">
+      <a href="https://porticode.devpost.com/"><img alt="image" class="thumbnail_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/no-avatar-100-17cf519ce6f8e4e0e83758ea09fc5eb3.png&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/456/185/datas/medium.jpg" /></a>
+    </figure>
+
+    <div class="software-list-content">
+      <p>
+        <a href="https://porticode.devpost.com/">Porticode</a>
+      </p>
+
+
+    </div>
+
+
+</li>
+
+    </ul>
+  </div>
+
+      <section id="app-team">
+  <h4 class="clearfix">
+    Created by
+  </h4>
+
+  <ul class="no-bullet">
+    
+<li class="software-team-member" itemprop="member">
+      <div class="bubble">
+      <p>Created the animations for Hubot and Octocat.</p>
+    </div>
+
+  <div class="row">
+    <div class="small-2 large-4 columns">
+      <figure>
+        <a class="user-profile-link" href="https://devpost.com/asiyla"><img alt="Asiyla Radwan" class="software-member-photo user-photo photo_image image-replacement" title="Asiyla Radwan" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/no-avatar-100-17cf519ce6f8e4e0e83758ea09fc5eb3.png&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/user_photos/000/383/560/datas/profile.jpg" /></a>
+      </figure>
+    </div>
+
+    <div class="small-10 large-8 columns">
+      <a class="user-profile-link" href="https://devpost.com/asiyla">Asiyla Radwan</a>
+      <span class="follow-button-wrapper" data-context="software-detail" data-layout="condensed" data-follow-through-id="204989"></span>
+
+        <br>
+        <small></small>
+    </div>
+  </div>
+</li>
+
+<li class="software-team-member" itemprop="member">
+      <div class="bubble">
+      <p>Adding Octocat and Hubot to Atom and a bit of logic to make the animations show up when they make sense.</p>
+    </div>
+
+  <div class="row">
+    <div class="small-2 large-4 columns">
+      <figure>
+        <a class="user-profile-link" href="https://devpost.com/npentrel"><img alt="Naomi Pentrel" class="software-member-photo user-photo photo_image image-replacement" title="Naomi Pentrel" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/no-avatar-100-17cf519ce6f8e4e0e83758ea09fc5eb3.png&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/user_photos/000/386/290/datas/profile.png" /></a>
+      </figure>
+    </div>
+
+    <div class="small-10 large-8 columns">
+      <a class="user-profile-link" href="https://devpost.com/npentrel">Naomi Pentrel</a>
+      <span class="follow-button-wrapper" data-context="software-detail" data-layout="condensed" data-follow-through-id="204990"></span>
+
+        <br>
+        <small>Communications Engineer, Office of the CTO @MongoDB. Occasional blogger, hacker, engineer. Former hackathon organizer. http://naomi.codes/</small>
+    </div>
+  </div>
+</li>
+
+  </ul>
+
+</section>
+
+
+      
+      
+    </aside>
+  </div>
+</article>
+
+<section id="share-and-like">
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="clearfix">
+        <div class="left">
+          <div class="software-likes">
+  <div data-like="base">
+    <a class="like-button button radius secondary" href="https://secure.devpost.com/users/register?flow%5Bdata%5D%5Bsoftware_id%5D=110138&amp;flow%5Bname%5D=like_software&amp;return_to=https%3A%2F%2Fdevpost.com%2Fsoftware%2Foctoclippy">
+  <span class="ss-icon ss-heart"></span>
+  Like
+</a>
+</div>
+
+
+  <span class="like-counts">
+    
+  </span>
+
+  <ul class="like-users inline-list">
+  </ul>
+
+</div>
+
+
+        </div>
+        <div class="right hide-for-small">
+          
+<div id="software-share" class="hide" data-add-this-buttons="true">
+  Share this project:
+  
+
+
+  <ul class="h-nav clearfix inline-list" id="social-links">
+    <li id="promote-twitter">
+      
+<div class="social-icon">
+  <div class="addthis_32x32_style addthis_toolbox addthis_default_style"
+    addthis:url="http://devpost.com/software/octoclippy?utm_campaign=portfolio-share&amp;utm_medium=twitter&amp;utm_source=cp"
+    addthis:title="Check out Octoclippy"
+    addthis:description="http://devpost.com/software/octoclippy">
+    <a class="addthis_button_twitter"
+      tw:count="false"
+      tw:counturl="http://devpost.com/software/octoclippy"
+      tw:url="http://devpost.com/software/octoclippy?utm_campaign=portfolio-share&amp;utm_medium=twitter&amp;utm_source=cp"
+      tw:via="Devpost"
+      tw:text="Check out Octoclippy">
+    </a>
+  </div>
+</div>
+
+    </li>
+
+    <li id="promote-fb-li">
+      
+<div class="social-icon">
+  <div class="addthis_32x32_style addthis_toolbox addthis_default_style"
+    addthis:url="http://devpost.com/software/octoclippy"
+    addthis:title="Octoclippy"
+    addthis:description="">
+    <div class="custom_images">
+      <a class="addthis_button_facebook"
+        fb:like:show_faces="false">
+      </a>
+    </div>
+  </div>
+</div>
+
+    </li>
+
+      <li id="promote-reddit-li">
+        <div class="social-icon">
+  <a class="addthis_32x32_style addthis_button_reddit"
+    addthis:url="http://devpost.com/software/octoclippy?utm_campaign=portfolio-share&amp;utm_medium=reddit&amp;utm_source=cp"
+    addthis:title="Octoclippy"
+    ></a>
+</div>
+
+      </li>
+</ul>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<article class="content-section">
+  <div class="row">
+    <div class="large-12 columns software-updates">
+      <h2 id="updates">Updates</h2>
+
+      <article class="content-section software-update with-sidebar" data-commentable-id="80665">
+  <div class="row">
+    <div class="large-8 small-12 columns">
+      <div data-region="actions"></div>
+
+      <div class="media">
+        <div class="media-left">
+          <a class="update-user-avatar user-profile-link" href="https://devpost.com/asiyla"><img alt="Asiyla Radwan" class="user-avatar user-photo photo_image image-replacement" title="Asiyla Radwan" onerror="this.onerror=null;this.src=&#39;https://devpost-challengepost.netdna-ssl.com/assets/defaults/no-avatar-100-17cf519ce6f8e4e0e83758ea09fc5eb3.png&#39;;" src="//challengepost-s3-challengepost.netdna-ssl.com/photos/production/user_photos/000/383/560/datas/profile.jpg" /></a>
+        </div>
+        <div class="media-content">
+          <p class="author small">
+            <a class="user-profile-link" href="https://devpost.com/asiyla">Asiyla Radwan</a>
+            started this project
+            <span class="light-text">
+              &mdash;
+              <a class="timestamp light-text" href="/software/octoclippy/updates/80665">
+                <time class="timeago" datetime="2016-12-11T05:38:10-05:00">
+                  Dec 11, 2016 05:38 AM EST
+                </time>
+</a>            </span>
+          </p>
+
+          <p><i>Leave feedback in the comments!</i></p>
+
+          <section class="software-update-comments" data-layout="comments">
+  <div data-region="load-more"></div>
+  <div data-region="comments"></div>
+
+      <p class="join-the-conversation">
+      <strong><a href="https://secure.devpost.com/users/login">Log in</a></strong>
+      or
+      <strong><a href="https://secure.devpost.com/users/register?flow%5Bdata%5D%5Bcommentable_id%5D=80665&amp;flow%5Bname%5D=comment_on_software_update&amp;return_to=https%3A%2F%2Fdevpost.com%2Fsoftware%2Foctoclippy">sign up for Devpost</a></strong>
+      to join the conversation.
+    </p>
+
+</section>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="columns"></div>
+  </div>
+</article>
+
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+      
+    </section>
+
+    
+  <footer id="devpost-footer">
+  <div class="row">
+    <div class="small-6 large-3 columns">
+      <nav>
+        <h4>Devpost</h4>
+        <ul>
+          <li><a href="https://info.devpost.com/about">About</a></li>
+          <li><a href="https://info.devpost.com/careers">Careers</a></li>
+          <li><a href="https://info.devpost.com/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="small-6 large-3 columns">
+      <nav>
+        <h4>Hackathons</h4>
+        <ul>
+          <li><a href="https://devpost.com/hackathons">Browse hackathons</a></li>
+          <li><a href="https://devpost.com/software">Explore projects</a></li>
+          <li><a href="https://help.devpost.com/">Help</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <hr class="clear show-for-small">
+
+    <div class="small-6 large-3 columns">
+      <nav>
+        <h4>For Organizations</h4>
+        <ul>
+          <li><a href="https://post.devpost.com/hackathons">Host an in-person hackathon</a></li>
+          <li><a href="https://post.devpost.com/online_hackathons">Host an online hackathon</a></li>
+          <li><a href="https://post.devpost.com/app_contest_resources">Hackathon best practices</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="small-6 large-3 columns">
+      <nav>
+        <h4>Connect</h4>
+        <ul class="social-links">
+          <li>
+            <a href="https://twitter.com/devpost" target="_blank">
+              <i class="fa fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/devposthacks" target="_blank">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/playlist?list=PLmJ41elIxG7bRbhhCUQun3e4XNeyKc_-o" target="_blank">
+              <i class="fa fa-youtube-square"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="small-6 large-12 columns">
+      <nav id="site-footer-legal">
+        <h4 class="show-for-small">Legal</h4>
+        <ul>
+          <li><a href="https://info.devpost.com/privacy"><small>Privacy policy</small></a></li>
+          <li><a href="https://info.devpost.com/guidelines"><small>Community Guidelines</small></a></li>
+          <li><a href="https://info.devpost.com/terms"><small>Terms of service</small></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+    
+    <script src="https://devpost-challengepost.netdna-ssl.com/assets/platform-dbe643c58f64dbd42aa18c2755424807.js"></script>
+<script src="https://devpost-challengepost.netdna-ssl.com/assets/reimagine2-c4aae56675eff87942e62f26176c483f.js"></script>
+
+<script src="https://devpost-challengepost.netdna-ssl.com/assets/home/home_application-f0b0ca4b3db417c82d0365b0d0bc289b.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+  (function() {
+    mixpanel.identify("1741855d52629-090f74578d2de9-49183501-13c680-1741855d5277f5");
+    mixpanel.register({});
+  })();
+</script>
+
+
+
+  <script src="https://devpost-challengepost.netdna-ssl.com/assets/slick-109bdf9c41cbcef37825090309ad4c84.js"></script>
+  <script type="text/javascript">
+  (function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+  <script type="text/javascript">
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    var addthis_config = {
+      data_ga_property: "UA-2233558-21",
+      ui_508_compliant: true,
+      ui_use_addressbook: true,
+      ui_email_note: "I thought you might be interested in Octoclippy - Animated helper for Github. It was built with spriter, photoshop, javascript, html, css, gimp, and atom.",
+      ui_email_from: ""
+    };
+    var addthis_share = {
+      url_transforms: {
+        shorten: {
+          twitter: 'bitly'
+        }
+      },
+      shorteners: {
+        bitly: {}
+      },
+      email_template: "software_share_template",
+      email_vars: {
+        Title: "Octoclippy",
+        Subject: "Check out this project on Devpost",
+        HomepageLink: "https://devpost.com/?utm_campaign=friends_share&utm_medium=email"
+      },
+      passthrough : {
+        twitter: {
+          via: "Devpost",
+          text: "Check out Octoclippy"
+        },
+        facebook: {
+          app_id: 115745995110194,
+          redirect_uri: "https://devpost.com/software/octoclippy"
+        }
+      }
+    };
+
+    var DEVPOST_ADDTHIS = {
+      show: function() {
+        $('[data-add-this-buttons]').each(function() {$(this).removeClass("hide")});
+      },
+      hide: function() {
+        $('[data-add-this-buttons]').each(function() {$(this).addClass("hide")});
+      }
+    }
+  </script>
+
+
+
+<script type="text/javascript" charset="utf-8">
+  CP.env.addRoutes({
+    follows_url: "https://devpost.com/follows",
+    search_softwares_url: "https://devpost.com/software/search",
+    new_software_url: "https://devpost.com/software/new",
+    search_hackathons_url: "https://devpost.com/hackathons",
+    notifications_url: "https://devpost.com/notifications",
+    api: {
+      users_url: "https://api.devpost.com/users"
+    }
+  })
+
+  new Reimagine2();
+
+  $(function onDocumentReady() {
+      CP.Home.SoftwareCommentButton.setup();
+  new CP.GifPlayer
+  CP.Carousel.setup()
+  new CP.Home.EditableContribution('[data-contribution="editable-contribution"]')
+  new CP.Home.LikesModal()
+  CP.Historic.setup(".software-updates");
+
+  ventChannel().trigger("updates:list", "octoclippy");
+  CP.LinkCollectionTracker.setup(".recognized-tag a", "#app-details-right").track(
+    "Tag Gallery",
+    { "Tag displayed on": "software details page"}
+  );
+  new CP.Home.SoftwareLinks("[data-role=software-urls]").enhance();
+  CP.Home.DismissableMessage.setup("[data-alert]");
+  CP.ChallengeStateInfoTimeago.setup('#submissions, #draft-submissions');
+  CP.SendFormOnCommandEnter.setup($("#masqueradee"));
+  (function(inputs) {
+    if (typeof inputs.cp_autocomplete === "function") inputs.cp_autocomplete();
+    inputs.on('click', function(event) { return false; });
+  })($("#masqueradee"));
+  var FollowButtonApp = new CP.FollowButtonApp({
+    user: {
+      screen_name: "",
+      follow_through_id: 0
+  },
+    urls: {
+      register_url: "https://secure.devpost.com/users/register",
+      user_follows_url: "https://devpost.com//follows",
+      follow_through_url: "https://devpost.com/software_members/follows",
+      follow_request_url: "https://devpost.com/follow_requests"
+  },
+  follow_through_scope: "software_member"
+  });
+
+  FollowButtonApp.start();
+  var appOptions = {};
+
+
+  CP.Mn.app.start(appOptions);
+
+  });
+
+</script>
+
+<!--[if lt IE 9 ]>
+  <script type="text/javascript">
+    $(function onDocumentReady() {
+      CP.IE.Notifications.setup();
+    });
+  </script>
+<![endif]-->
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "https://devpost.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://devpost.com/software/search?query={query}",
+      "query-input": "name=query"
+    }
+}
+</script>
+
+
+
+    
+
+</body></html>
