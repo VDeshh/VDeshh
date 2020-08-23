@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 
 -->
 
-## Find me around the web 🌎:
+## Find me around the web 🌎: <img align="left" width="150" height="150" src="">
 - 🌟 <a href="http://vishaldesh.com/">My Personal Website </a>
 - 🌟 <a href="https://devpost.com/emailtovishy?ref_content=user-ortfolio&ref_feature=portfolio&ref_medium=global-nav">My Devpost Portfolio </a>
 
