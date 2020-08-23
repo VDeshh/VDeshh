@@ -1,6 +1,6 @@
-# Hi, I'm Vishal  👋 💻
-
 <img src="LET IT SNOW!.png" alt="banner that says Vishal Desh">
+
+# Hi, I'm Vishal  👋 💻
 
 I'm currently in year 2 at UBC, Vancouver, BC. I'm currently pursuing my Bachelor's in Science (Computer Science + Statistics) and Masters of Management.
 
