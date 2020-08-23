@@ -27,9 +27,8 @@ Here are some ideas to get you started:
 -->
 
 ## Find me around the web 🌎:
-🌟 <a href="http://vishaldesh.com/">My Personal Website </a>
-
-🌟 <a href="https://devpost.com/emailtovishy?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">My Devpost Portfolio </a>
+- 🌟 <a href="http://vishaldesh.com/">My Personal Website </a>
+- 🌟 <a href="https://devpost.com/emailtovishy?ref_content=user-ortfolio&ref_feature=portfolio&ref_medium=global-nav">My Devpost Portfolio </a>
 
 ![Vishal's github stats](https://github-readme-stats.vercel.app/api?username=VDeshh&show_icons=true&theme=radical)
 
