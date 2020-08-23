@@ -1,6 +1,6 @@
 # Hi, I'm Vishal  👋 💻
 
-# <img src="./LET IT SNOW!.png" width="1000">
+# <img src=".\LET IT SNOW!.png" width="1000">
 
 I'm currently in year 2 at UBC, Vancouver, BC. I'm currently pursuing my Bachelor's in Science (Computer Science + Statistics) and Masters of Management.
 
