@@ -8,7 +8,7 @@ I worked on several hackathon projects :computer: this summer and gained a lot t
 
 I'm the Control Systems Lead at UBC Mars Colony Design team where I Lead design and development of high and low-level control systems for a Sabatier reactor intended for use on Mars. In the past I have worked on several robotics :robot: and software related projects and I had the opportunity to intern with a few companies. 
 
-I'm currently looking for internships for Summer (May-Aug) 2021. Feel free to reach out to me 📫 !
+I'm currently looking for internships for Summer :sunny: (May-Aug) 2021. Feel free to reach out to me 📫 !
 
 
 
