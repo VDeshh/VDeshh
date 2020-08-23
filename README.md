@@ -1,5 +1,7 @@
 # Hi, I'm Vishal  👋
 
+<img src="LET IT SNOW!.png" alt="banner that says Vishal Desh">
+
 I'm currently in year 2 at UBC, Vancouver, BC. I'm currently pursuing my Bachelor's in Science (Computer Science + Statistics) and Masters of Management.
 
 I worked on several hackathon projects this summer and gained a lot technical skills for development. I worked with different frameworks and platforms to creat applications such as a dating app for developers which is a blend of tinder, snapchat and a programming language called scheme. I've worked with non profit donation web applications, Clones with React.js and several other projects to help people during the COVID-19 pandemic.
