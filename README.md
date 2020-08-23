@@ -1,4 +1,4 @@
-# Hi, I'm Vishal  👋
+# Hi, I'm Vishal  👋 💻
 
 <img src="LET IT SNOW!.png" alt="banner that says Vishal Desh">
 
