@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/VDeshh/VDeshh/master/header.png" width="1000">
 
 # Hello Folks!  👋 💻
-I'm a Sophomore at UBC, Vancouver, BC. I'm currently pursuing my Bachelor of Science (Computer Science) and Masters of Management.
+I'm a Junior at UBC, Vancouver, BC. I'm currently pursuing my Bachelor of Science (Computer Science) and Masters of Management.
 
 I worked on several hackathon projects :computer: this summer and gained a lot technical skills for development. I worked with different frameworks and platforms to creat applications such as a dating app for developers which is a blend of tinder, snapchat and a programming language called scheme. I've worked with non profit donation web applications, Clones with React.js and several other projects to help people during the COVID-19 pandemic :microbe:.
 
