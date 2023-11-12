@@ -30,7 +30,4 @@ Here are some ideas to get you started:
 - 🌟 <a href="https://devpost.com/emailtovishy?ref_content=user-ortfolio&ref_feature=portfolio&ref_medium=global-nav">Check Out Devpost Portfolio </a>
 - 🌟 <a href="https://www.linkedin.com/in/vishal-desh-6294141b1/">Connect via Linkedin </a>
 
-![Vishal's github stats](https://github-readme-stats.vercel.app/api?username=VDeshh&show_icons=true&theme=radical)
-
-
 
