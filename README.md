@@ -1,13 +1,11 @@
 <img src="https://raw.githubusercontent.com/VDeshh/VDeshh/master/header.png" width="1000">
 
 # Hello Folks!  👋 💻
-I'm a Junior at UBC, Vancouver, BC. I'm currently pursuing my Bachelor of Science (Computer Science) and Masters of Management.
+I'm a recent Bachelors of Science - Computer Science gratuate from The University of British Columbia, Vancouver, BC. I'm currently pursuing my Master of Management.
 
 I worked on several hackathon projects :computer: this summer and gained a lot technical skills for development. I worked with different frameworks and platforms to creat applications such as a dating app for developers which is a blend of tinder, snapchat and a programming language called scheme. I've worked with non profit donation web applications, Clones with React.js and several other projects to help people during the COVID-19 pandemic :microbe:.
 
-I'm the Control Systems Lead at UBC Mars Colony Design team where I Lead design and development of high and low-level control systems for a Sabatier reactor intended for use on Mars. In the past I have worked on several robotics :robot: and software related projects and I had the opportunity to intern with a few companies. 
-
-I'm currently looking for internships for Summer :sunny: (May-Aug) 2023. Feel free to reach out to me 📫 !
+I'm currently looking for full time opportunities for Winter :sunny: Jan 2025. Feel free to reach out to me 📫 !
 
 
 
